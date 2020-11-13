@@ -1,0 +1,7 @@
+export var StorageType;
+(function (StorageType) {
+    StorageType[StorageType["LocalStorage"] = 0] = "LocalStorage";
+    StorageType[StorageType["SessionStorage"] = 1] = "SessionStorage";
+    StorageType[StorageType["Memory"] = 2] = "Memory";
+})(StorageType || (StorageType = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaXN0b3JhZ2UuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvUmVuYW4vcHJvamVjdHMvZmxldXJ5L2xpYnJhcmllcy9teS13b3Jrc3BhY2UvcHJvamVjdHMvZmxldXJ5LWh0dHAvc3JjLyIsInNvdXJjZXMiOlsibGliL2ZlYXR1cmVzL3N0b3JhZ2UvaW50ZXJmYWNlcy9pc3RvcmFnZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQU4sSUFBWSxXQUlYO0FBSkQsV0FBWSxXQUFXO0lBQ25CLDZEQUFZLENBQUE7SUFDWixpRUFBYyxDQUFBO0lBQ2QsaURBQU0sQ0FBQTtBQUNWLENBQUMsRUFKVyxXQUFXLEtBQVgsV0FBVyxRQUl0QiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBlbnVtIFN0b3JhZ2VUeXBlIHtcclxuICAgIExvY2FsU3RvcmFnZSxcclxuICAgIFNlc3Npb25TdG9yYWdlLFxyXG4gICAgTWVtb3J5XHJcbn1cclxuXHJcbmV4cG9ydCBpbnRlcmZhY2UgSVN0b3JhZ2VTZXJ2aWNlIHtcclxuICAgIGdldChrZXk6IHN0cmluZyk6IGFueTtcclxuICAgIHNldChrZXk6IHN0cmluZywgdmFsdWU6IHN0cmluZyk6IHZvaWQ7XHJcbn1cclxuIl19

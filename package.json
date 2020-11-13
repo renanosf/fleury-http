@@ -1,0 +1,21 @@
+{
+  "name": "fleury-http",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "axios": "^0.20.0",
+    "rxjs": "^6.5.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/fleury-http.umd.js",
+  "module": "fesm2015/fleury-http.js",
+  "es2015": "fesm2015/fleury-http.js",
+  "esm2015": "esm2015/fleury-http.js",
+  "fesm2015": "fesm2015/fleury-http.js",
+  "typings": "fleury-http.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
