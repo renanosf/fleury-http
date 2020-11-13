@@ -456,5 +456,5 @@ class FleuryHttpFactory {
  * Generated bundle index. Do not edit.
  */
 
-export { FleuryHttpFactory, InstanceType, OauthFlows, StorageType };
+export { FleuryHttpFactory as FleuryHttp, InstanceType, OauthFlows, StorageType };
 //# sourceMappingURL=fleury-http.js.map

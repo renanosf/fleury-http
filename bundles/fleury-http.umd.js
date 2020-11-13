@@ -874,7 +874,7 @@
      * Generated bundle index. Do not edit.
      */
 
-    exports.FleuryHttpFactory = FleuryHttpFactory;
+    exports.FleuryHttp = FleuryHttpFactory;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
